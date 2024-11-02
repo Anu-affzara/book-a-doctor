@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(211, 231, 248);
+}
+
+.admin-dashboard {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+header {
+  background-color: lightskyblue;
+  color: midnightblue;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  width: 93%;
+}
+
+header h1 {
+  margin: 0;
+  margin-right: 60%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: midnightblue;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+nav a:hover {
+  color: rgb(117, 147, 203);
+  cursor: pointer;
+}
+
+.dashboard-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 2rem;
+  flex-direction: column;
+}
+
+.analytics-section {
+  width: 100%;
+  max-width: 800px;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.details-section {
+  width: 100%;
+  max-width: 800px;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.details-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.details-section li {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-right: 15px;
+  font-size: 1rem;
+  background-color: rgb(86, 184, 245);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(39, 149, 217);
+}
+
+.add-doctor, .edit-doctor {
+  margin-top: 2rem;
+}
+
+.add-doctor input, .edit-doctor input {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  width: calc(100% - 1rem);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: lightskyblue;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+

@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(211, 231, 248);
+}
+
+.register-page {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+header {
+  background-color: lightskyblue !important;
+  color: midnightblue;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  width: 93%;
+}
+
+header h1 {
+  margin: 0;
+  margin-right: 60%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: midnightblue;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+nav a:hover {
+  color: rgb(117, 147, 203);
+  cursor: pointer;
+}
+
+.register-container {
+  display: flex;
+  flex-grow: 1;
+}
+
+.register-left-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.register-left-side form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.register-left-side form input,
+.register-left-side form button {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.register-left-side form div {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.register-left-side form button {
+  background-color: rgb(86, 184, 245);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.register-left-side form button:hover {
+  background-color: rgb(39, 149, 217);
+}
+
+.register-left-side .error {
+  color: red;
+  margin-top: 1rem;
+}
+
+.register-right-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.register-right-side img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: lightskyblue;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}

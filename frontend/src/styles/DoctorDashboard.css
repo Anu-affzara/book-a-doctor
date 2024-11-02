@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(211, 231, 248);
+}
+
+.doctor-dashboard {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+header {
+  background-color: lightskyblue;
+  color: midnightblue;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  width: 93%;
+}
+
+header h1 {
+  margin: 0;
+  margin-right: 60%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: midnightblue;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+nav a:hover {
+  color: rgb(117, 147, 203);
+  cursor: pointer;
+}
+
+.dashboard-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.details-section {
+  width: 100%;
+  max-width: 800px;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-section {
+  margin-bottom: 2rem;
+}
+
+.doctor-section h2 {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+.doctor-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.doctor-section li {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.appointment-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.appointment-buttons button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: rgb(86, 184, 245);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.appointment-buttons button:hover {
+  background-color: rgb(39, 149, 217);
+}
+
+.success {
+  color: green;
+  margin-top: 1rem;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: lightskyblue;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}

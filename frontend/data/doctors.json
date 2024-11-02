@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "603d0c4ff4b5d1624c9b9b70",
+    "name": "Dr. Jane Smith",
+    "specialty": "Cardiologist",
+    "availability": ["Monday", "Wednesday", "Friday"]
+  },
+  {
+    "_id": "603d0c4ff4b5d1624c9b9b71",
+    "name": "Dr. John Doe",
+    "specialty": "Dermatologist",
+    "availability": ["Tuesday", "Thursday"]
+  },
+  {
+    "_id": "603d0c4ff4b5d1624c9b9b72",
+    "name": "Dr. Emily Johnson",
+    "specialty": "Pediatrician",
+    "availability": ["Monday", "Tuesday", "Wednesday"]
+  },
+  {
+    "_id": "603d0c4ff4b5d1624c9b9b73",
+    "name": "Dr. Michael Brown",
+    "specialty": "Neurologist",
+    "availability": ["Friday"]
+  },
+  {
+    "_id": "603d0c4ff4b5d1624c9b9b74",
+    "name": "Dr. Anu Affzara",
+    "specialty": "General Practitioner",
+    "availability": ["Wednesday", "Thursday"]
+  },
+  {
+    "_id": "603d0c4ff4b5d1624c9b9b75",
+    "name": "Dr. Rachel Green",
+    "specialty": "Orthopedic",
+    "availability": ["Monday", "Thursday", "Saturday"]
+  },
+  {
+    "_id": "603d0c4ff4b5d1624c9b9b76",
+    "name": "Dr. Ross Geller",
+    "specialty": "Paleontologist",
+    "availability": ["Tuesday", "Friday"]
+  },
+  {
+    "_id": "603d0c4ff4b5d1624c9b9b77",
+    "name": "Dr. Monica Geller",
+    "specialty": "Surgeon",
+    "availability": ["Wednesday", "Thursday", "Saturday"]
+  },
+  {
+    "_id": "603d0c4ff4b5d1624c9b9b78",
+    "name": "Dr. Phoebe Buffay",
+    "specialty": "Holistic Healer",
+    "availability": ["Monday", "Friday"]
+  },
+  {
+    "_id": "603d0c4ff4b5d1624c9b9b79",
+    "name": "Dr. Chandler Bing",
+    "specialty": "Psychiatrist",
+    "availability": ["Tuesday", "Wednesday"]
+  },
+  {
+    "_id": "603d0c4ff4b5d1624c9b9b80",
+    "name": "Dr. Joey Tribbiani",
+    "specialty": "General Practitioner",
+    "availability": ["Thursday", "Friday"]
+  },
+  {
+    "_id": "603d0c4ff4b5d1624c9b9b81",
+    "name": "Dr. Meredith Grey",
+    "specialty": "General Surgery",
+    "availability": ["Monday", "Wednesday"]
+  },
+  {
+    "_id": "603d0c4ff4b5d1624c9b9b82",
+    "name": "Dr. Derek Shepherd",
+    "specialty": "Neurosurgery",
+    "availability": ["Tuesday", "Thursday"]
+  },
+  {
+    "_id": "603d0c4ff4b5d1624c9b9b83",
+    "name": "Dr. Miranda Bailey",
+    "specialty": "General Surgery",
+    "availability": ["Monday", "Friday"]
+  },
+  {
+    "_id": "603d0c4ff4b5d1624c9b9b84",
+    "name": "Dr. Cristina Yang",
+    "specialty": "Cardiothoracic Surgery",
+    "availability": ["Wednesday", "Saturday"]
+  }
+]
