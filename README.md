@@ -57,11 +57,11 @@ JWT_SECRET=your_jwt_secret`
 
 MongoDB Documentation: Comprehensive guide to using MongoDB, the database used in your project.
 
-[MongoDB Documentation]
+[MongoDB Documentation](https://docs.mongodb.com/)
 
 Express Documentation: Official documentation for Express, the web framework used for building the backend.
 
-Express Documentation
+[Express Documentation](https://expressjs.com/)
 
 React Documentation: The official React documentation covering all aspects of using React for building your frontend.
 
@@ -69,13 +69,14 @@ React Documentation: The official React documentation covering all aspects of us
 
 Node.jsDocumentation: Official documentation for Node.js, providing details on all Node.jsfeatures and API.
 
-Node.js Documentation
+[Node.js Documentation](https://nodejs.org/en/docs/)
 
 Axios Documentation: Guide to using Axios for making HTTP requests from your frontend.
 
-Axios Documentation
+[Axios Documentation](https://axios-http.com/docs/intro)
+
 JWT Documentation: Information about JSON Web Tokens (JWT), used for secure authentication in your project.
 
-JWT Documentation
+[JWT Documentation](https://jwt.io/introduction/)
 
 
