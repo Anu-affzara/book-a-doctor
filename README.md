@@ -57,7 +57,7 @@ JWT_SECRET=your_jwt_secret`
 
 MongoDB Documentation: Comprehensive guide to using MongoDB, the database used in your project.
 
-MongoDB Documentation
+[MongoDB Documentation]
 
 Express Documentation: Official documentation for Express, the web framework used for building the backend.
 
