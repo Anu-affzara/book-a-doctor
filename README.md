@@ -1,33 +1,41 @@
-# Getting Started with Create React App
+# BOOK A DOCTOR USING MERN
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The "Book a Doctor" project aims to provide an intuitive and efficient web-based platform for scheduling medical consultations.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+User Registration and Login: Secure authentication for patients, doctors, and administrators using JWT.
 
-### `npm start`
+Appointment Booking: Patients can search for doctors by specialty and book appointments.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Schedule Management: Doctors can view, accept, decline, and reschedule appointments.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Admin Dashboard: Administrators can manage users, doctors, and appointments.
+
+Real-Time Updates: Ensures that appointment schedules and doctor availability are always up-to-date.
+
+Responsive Design: The platform is accessible across various devices, including desktops, tablets, and mobile phones.
+
+### Tech Stack
+
+MongoDB: A NoSQL database for flexible and scalable data storage.
+
+Express: A web application framework for building the backend server.
+
+React: A JavaScript library for building the user interface with a component-based architecture.
+
+Node.js: A JavaScript runtime for server-side programming.
+
+Additional Tools: Axios for making HTTP requests, JWT for secure authentication, and CSS/Bootstrap for styling the user interface.
 
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Screenshots
+![image](https://github.com/user-attachments/assets/6d909573-c580-46a8-94f9-92dddc8107c8)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
